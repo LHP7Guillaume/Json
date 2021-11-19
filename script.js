@@ -45,8 +45,8 @@ fetch(url)
 
 
             let film = element
-            let myAffichage = `<div class="card mt-3 position-relative col-lg-3" style="max-width: 350px;">
-            <div class="colorCards row g-0">
+            let myAffichage = `<div class="card gy-2 position-relative col-lg-3" style="max-width: 350px;">
+            <div class="colorCards row ">
                 <div class="col-lg-4">
                     <img src="${element.poster_path}"
                         class="img-fluid rounded-start" alt="...">
