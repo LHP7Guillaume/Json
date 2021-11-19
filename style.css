@@ -1,10 +1,8 @@
-header{
+.header{
     color: grey;
 
 }
-.myCarte{
-      
-}
+
 .card{
     background-color: grey;
 }
@@ -14,5 +12,5 @@ header{
     overflow: auto;
 }
 .colorCards{
-    background-color: lemonchiffon;
+    background-color: lightgray;
 }
