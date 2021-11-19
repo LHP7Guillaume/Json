@@ -3,16 +3,16 @@ header{
 
 }
 .myCarte{
-    
+      
+}
+.card{
     background-color: grey;
 }
-.myTitre{
-height: 30%;
-}
-.synopsis{
-height: 40%;
-}
-.myNote{
-    height: 30%;
-}
 
+.para{
+    max-height: 90px;
+    overflow: auto;
+}
+.colorCards{
+    background-color: lemonchiffon;
+}

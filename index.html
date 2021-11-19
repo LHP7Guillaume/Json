@@ -21,60 +21,53 @@
     <header class="mb-3 mt-3 text-center display-6">The Manu Movie DataBase - TMMDB</header>
 
 
-    <div class="myCarte row text-center border border-dark">
+    <!-- code avec div / changer pour passer en Card
+        <div class="myCarte row text-center border border-dark"></div>
         <div class="col-3 border border-danger pt-2 pb-2">
             <div class="row ">
-                <div class="col border border-dark affiche"><img src="/img /dracofeu.png" width="100%" alt="">
+                <div class="col-4 border border-dark "><img src="/img /dracofeu.png" class="img-fluid" alt="">
                 </div>
-                <div class="col border border-success">
-                    <!-- <h3 class="myTitre border border-succes">Mon frère est
+                <div class="col-8 border border-success">
+                    <h3 class="myTitre border border-succes">Mon frère est
                         fils unique</h3>
                     <div class="border border-succes">
                         <p class="synopsis">blablablabla</p>
                     </div>
-
-                    <div class="myNote border border-succes">⭐️⭐️⭐️⭐️⭐️</div> -->
-
-
+                    <div class="myNote border border-succes">⭐️⭐️⭐️⭐️⭐️</div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+    <div class="myCarte row" id="allMovies"></div>
 
 
 
+    <!-- Nouveau code dans le JS
 
-
-        <div class="col-3 border border-danger">
-            Column
-        </div>
-        <div class="col-3 border border-danger">
-            Column
-        </div>
-        <div class="col-3 border border-danger">
-            Column
-        </div>
-
-        <div class="myCarte row text-center border border-dark">
-            <div class="col-3 border border-danger pt-2 pb-2">
-                <div class="row ">
-                    <div class="col border border-dark affiche"><img src="/img /dracofeu.png" width="100%" alt="">
-                    </div>
-                    <div class="col border border-success">
-                        <!-- <h3 class="myTitre border border-succes">Mon frère est
-                            fils unique</h3>
-                        <div class="border border-succes">
-                            <p class="synopsis">blablablabla</p>
-                        </div>
-    
-                        <div class="myNote border border-succes">⭐️⭐️⭐️⭐️⭐️</div> -->
-    
-    
+        <div class="card mb-3" style="max-width: 350px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://image.tmdb.org/t/p/original/4bTShLVFnVKK31cowgjdAIZV84T.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text para">This is a wider card with supporting text below as a natural lead-in
+                            to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
+    </div> -->
 
-    <!-- <div class="row" id="allMovies"></div> -->
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>
