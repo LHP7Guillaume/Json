@@ -1,6 +1,6 @@
 document.getElementById("mySearch").addEventListener("click", () => {
     let movie = document.getElementById("movie").value
-    let apiKey = "k_4tz89vls"
+    let apiKey = "k_p4axw6li"
     let uri = `https://imdb-api.com/en/API/SearchMovie/${apiKey}/${movie}`
 
     allMovies.innerHTML = ""
